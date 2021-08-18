@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/home/ekim/wallpapers/nier5.jpeg' '/home/ekim/wallpapers/nier2' '/home/ekim/wallpapers/Chrono1.gif' '/home/ekim/wallpapers/nier3.jpeg' '/home/ekim/wallpapers/nier4.jpeg' '/home/ekim/wallpapers/nier1.jpg' 

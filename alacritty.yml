@@ -36,17 +36,14 @@ colors:
   cursor:
     text: '0x212121'
     cursor: '0xeeffff'
-    style: 
-       blinking: Always
-       blink_interval: 500
 
   # Normal colors
   normal:
     black:   '0x1a1a1a'
     red:     '0xd75f5f'
-    green:   '0x87af6f'
+    green:   '0x292929'
     yellow:  '0xffaf5f'
-    blue:    '0x87afd7'
+    blue:    '0x6d90b3'
     magenta: '0x8787af'
     cyan:    '0x5f8787'
     white:   '0xeeffff'
@@ -55,9 +52,9 @@ colors:
   bright:
     black:   '0x404040'
     red:     '0xea8484'
-    green:   '0xc3e88d'
+    green:   '0xd4d4d4'
     yellow:  '0xffcc9a'
-    blue:    '0xa5caef'
+    blue:    '0x4f7dab'
     magenta: '0xa6a6de'
     cyan:    '0x5f8787'
     white:   '0xeeffff'
@@ -70,12 +67,16 @@ colors:
     - { index: 20, color: '0xb2ccd6' }
     - { index: 21, color: '0xeeffff' }
 
-background_opacity: .7
+background_opacity: .85
 
-# cursor:
-#   style: Underline
+shell:
+  program: /bin/zsh
 
-#   unfocused_hollow: false
+cursor:
+  shape: Block
+  unfocused_hollow: true
+  blinking: On
+blink_interval:  759
 
 live_config_reload: true
                  
