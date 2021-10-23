@@ -1,0 +1,79 @@
+#Alacritty:
+
+env:
+  TERM: alacritty
+
+window:
+  padding:
+    x: 15
+    y: 25
+
+    dynamic_padding:  true
+    decoration: none
+
+font:
+  normal:
+    family: terminus
+  size: 20
+
+colors:
+  # Default colors
+  primary:
+    background: '0x080808'
+    foreground: '0xf2f2f2'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x212121'
+    cursor: '0xeeffff'
+
+  # Normal colors
+  normal:
+    black:   '0x1a1a1a'
+    red:     '0xd75f5f'
+    green:   '0x292929'
+    yellow:  '0xffaf5f'
+    blue:    '0x6d90b3'
+    magenta: '0x8787af'
+    cyan:    '0x5f8787'
+    white:   '0xeeffff'
+
+  # Bright colors
+  bright:
+    black:   '0x404040'
+    red:     '0xea8484'
+    green:   '0xd4d4d4'
+    yellow:  '0xffcc9a'
+    blue:    '0x4f7dab'
+    magenta: '0xa6a6de'
+    cyan:    '0x5f8787'
+    white:   '0xeeffff'
+
+  indexed_colors:
+    - { index: 16, color: '0xf78c6c' }
+    - { index: 17, color: '0xff5370' }
+    - { index: 18, color: '0x303030' }
+    - { index: 19, color: '0x353535' }
+    - { index: 20, color: '0xb2ccd6' }
+    - { index: 21, color: '0xeeffff' }
+
+background_opacity: .85
+
+shell:
+  program: /bin/zsh
+
+cursor:
+  shape: Block
+  unfocused_hollow: true
+  blinking: On
+blink_interval:  759
+
+live_config_reload: true
+                 
+key_bindings:
+
+  - { key: Key0, mods: Control, action: ResetFontSize }
+
+  - { key: Equals, mods: Control, action: IncreaseFontSize }
+
+  - { key: Minus, mods: Control, action: DecreaseFontSize }
