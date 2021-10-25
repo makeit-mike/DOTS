@@ -4,7 +4,7 @@ ArchLinux personal configs.
   Shell: ZSH w/ OhMyZsh
   Compoistor: Picom
 
-Main System: 
+Main System: <br>
   OS: Arch (systemd)
   Window manager: xmonad (haskell)
   Display manager: lightdm
