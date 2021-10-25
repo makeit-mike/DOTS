@@ -1,15 +1,15 @@
 # DOTS
-ArchLinux personal configs.
+ArchLinux personal configs. <br>
 
-  Shell: ZSH w/ OhMyZsh
-  Compoistor: Picom
+  Shell: ZSH w/ OhMyZsh <br>
+  Compoistor: Picom <br>
 
 Main System: <br>
-  OS: Arch (systemd)
-  Window manager: xmonad (haskell)
-  Display manager: lightdm
+  OS: Arch (systemd) <br>
+  Window manager: xmonad (haskell) <br>
+  Display manager: lightdm <br>
 
-Side System:
-  OS: Arch (systemd)
-  Window manager: DWM (C++)
-  Display manager: xorg
+Side System: <br>
+  OS: Arch (systemd) <br>
+  Window manager: DWM (C++) <br>
+  Display manager: xorg <br>
