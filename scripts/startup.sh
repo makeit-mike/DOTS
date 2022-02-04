@@ -13,3 +13,7 @@ xinput --set-prop $Mouse "libinput Tapping Enabled" 1
 
 # Increase Mouse Sensitivity
 xinput set-prop $Mouse "libinput Accel Speed" .5
+
+picom -b &
+
+feh --randomize --bg-fill ~/wallpapers/*
