@@ -12,7 +12,7 @@ xinput --set-prop $Mouse "libinput Natural Scrolling Enabled" 1
 xinput --set-prop $Mouse "libinput Tapping Enabled" 1
 
 # Increase Mouse Sensitivity
-xinput set-prop $Mouse "libinput Accel Speed" .5
+xinput set-prop $Mouse "libinput Accel Speed" .4
 
 picom -b &
 
