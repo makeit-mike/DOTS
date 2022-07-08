@@ -1,0 +1,8 @@
+# THIS IS EXTREMELY OMITTED. WOULD NOT WORK AS A DROP IN REPLACEMENT.
+
+ZSH_THEME="afowler"
+
+plugins=(git)
+
+alias doomsync=".emacs.d/bin/doom sync"
+alias emacs="emacs -nw"

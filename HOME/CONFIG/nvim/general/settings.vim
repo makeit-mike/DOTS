@@ -1,5 +1,8 @@
+setlocal conceallevel=2
 
+colorscheme zellner
 set autoindent
+set scrolloff=5
 set number
 set wildmode=longest,list
 set cc=80
@@ -31,3 +34,5 @@ set updatetime=300
 set timeoutlen=100
 set formatoptions-=cro
 set clipboard=unnamedplus
+set ignorecase
+set smartcase

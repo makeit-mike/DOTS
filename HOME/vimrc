@@ -1,0 +1,3 @@
+syn on
+setlocal conceallevel=2
+set concealcursor=nciv
