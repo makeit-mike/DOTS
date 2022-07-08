@@ -1,19 +1,17 @@
 # DOTS
-ArchLinux personal configs. <br>
 
-Compoistor: Picom <br>
+WORK IN PROGRESS. 
+I am currently hopping around between many systems, I am hoping to consolidate everything soon. 
 
-michael@makeit <br>
--------------- <br>
-OS: Arch Linux x86_64 <br>
-Kernel: 5.16.5-arch1-1 <br>
-Packages: 699 (pacman) <br>
-Shell: /usr/bin/zsh 5.8 <br>
-Resolution: 2256x1504 @ 60.00Hz <br>
-WM: dwm <br>
-Terminal: alacritty <br>
-Terminal Font: Terminus <br>
-CPU: 11th Gen Intel i5-1135G7 (8) @ 4.2 GHz <br>
-GPU: Intel TigerLake-LP GT2 [Iris Xe Graphics] <br>
-Memory: 16 GiB <br>
-Disk: 500G <br>
+1. macOS (M1 Pro 16in, M1 Max 14in)
+    Mostly professional programming. (Haskell, Swift)
+
+2. Arch Linux (Framework Laptop, DWM)
+    Mostly personal programming, trying out new languages. (Rust, Haskell, Clojure)
+
+3. Windows 10 (Ryzen 9 5950x, RTX 3070; Ubuntu WSL2)
+    Mostly gaming and some windows specific programming (C#, C++)
+
+
+
+
