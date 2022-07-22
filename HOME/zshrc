@@ -1,8 +1,24 @@
-# THIS IS EXTREMELY OMITTED. WOULD NOT WORK AS A DROP IN REPLACEMENT.
+export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="afowler"
+# THEME
+#ZSH_THEME="afowler" #normal
+#ZSH_THEME="robbyrussell" # only show direct folder
+ZSH_THEME="bira" # 2 line 
 
+# PLUGINS
 plugins=(git)
 
-alias doomsync=".emacs.d/bin/doom sync"
-alias emacs="emacs -nw"
+# OTHER
+source $ZSH/oh-my-zsh.sh
+
+alias clr="clear && "
+alias stackid="stack exec -- ghcid -T :main"
+alias sb="stack build"
+alias sg="stack ghci" 
+alias ownScript="chmod u+x"
+alias gid="~/bin/gid.sh"
+alias refreshZsh=". ~/.zshrc"
+
+. /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
