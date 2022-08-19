@@ -1,6 +1,5 @@
 # DOTS
 
-WORK IN PROGRESS. 
 I am currently hopping around between many systems, I am hoping to consolidate everything soon. 
 
 1. macOS (M1 Pro 16in, M1 Max 14in)
